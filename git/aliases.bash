@@ -28,8 +28,7 @@ alias grba='git rebase --abort'
 
 alias gb='git branch'
 
-alias gs='git status-diff'
-alias gst='git status'
+alias gs='git status'
 alias gd='git diff --ignore-space-at-eol -b -w --ignore-blank-lines'
 
 function gbd() {
