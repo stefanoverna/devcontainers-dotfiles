@@ -1,5 +1,5 @@
 # even on non-interactive shells, include aliases
-export DOTFILES_DIR=$HOME/.dotfiles
+export DOTFILES_DIR=$HOME/dotfiles
 
 for file in $DOTFILES_DIR/**/aliases.bash; do
   source $file
