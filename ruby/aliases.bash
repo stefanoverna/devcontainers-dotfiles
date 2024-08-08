@@ -5,7 +5,7 @@ alias bs="b show"
 alias bu="b update"
 
 alias rc="rails console"
-alias rs="rails server"
+alias rs="rails server -b 0.0.0.0 -p 3001"
 alias rg="rails g"
 
 alias rgco="rg controller"
