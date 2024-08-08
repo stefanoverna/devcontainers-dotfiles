@@ -1,5 +1,5 @@
 [commit]
-	template = ~/dotfiles/git/commit-template
+  template = ~/dotfiles/git/commit-template
 
 [alias]
   # unstage
@@ -21,8 +21,7 @@
   amend = commit --amend
 
   # infos
-  nice-oneline-log = log --graph --decorate --abbrev-commit --date=relative --pretty=format:'%Cred%h%Creset - %Cgreen%cd%Creset - %s%Creset %C(yellow)<%an>%Creset'
-  nice-detail-log = log --oneline --decorate --stat --graph
+  lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
   last-commit = log -1 --format='%s'
 
   # remove untracked files and dirs
@@ -38,8 +37,8 @@
   stop-local-ignore = update-index --no-assume-unchanged
 
 [user]
-	name = Stefano Verna
-	email = s.verna@datocms.com
+  name = Stefano Verna
+  email = s.verna@datocms.com
 
 [color]
   ui = auto
@@ -62,7 +61,6 @@
   untracked = red
 
 [core]
-	excludesfile = /Users/stefanoverna/.gitignore
   editor = vim
 
 [diff]
@@ -76,8 +74,3 @@
 
 [push]
   default = simple
-
-[merge]
-  ; ff = only
-
-[init]
