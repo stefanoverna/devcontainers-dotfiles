@@ -36,7 +36,7 @@ alias grb='git rebase'
 __git_complete grb _git_rebase
 
 alias grbi='git rebase-interactive'
-__git_complete gco _git_checkout
+__git_complete grbi _git_rebase
 
 alias grbc='git rebase --continue'
 alias grba='git rebase --abort'
