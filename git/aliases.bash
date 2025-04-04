@@ -1,4 +1,4 @@
-source /etc/bash_completion
+source /usr/share/bash-completion/completions/git
 
 alias gf='git fetch --prune'
 alias gff='git fetch --prune --all'
